@@ -127,14 +127,5 @@ mysqld -u$Username -p$Password studentms < studentms.sql
 ```
 
 
-# 项目存在的问题
 
-- 由于是第一次编写 Vue 项目, 代码复用做得并不是很好. 导致许多组件代码量巨大. 
-- 动态搜索导致前端频繁调用数据接口, 使得性能降低. 考虑使用 mybatis 的缓存解决.
-- 期间多次因为太菜了, 导致功能实现不了. 感谢博客园的大佬相助. 
-- admin 中的学生查询为过时版本的查询，由于代码与教师查询相似而且代码量巨大，没有修改学生端的查询。~~我真的不是懒狗~~
-- axios 没有实现 url 的全局封装，导致部署服务器的时候修改 url 比较麻烦。
-
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ruanjiancheng/StudentManageSystem&type=Date)](https://star-history.com/#ruanjiancheng/StudentManageSystem&Date)
 
